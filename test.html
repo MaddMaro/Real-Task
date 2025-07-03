@@ -3,6 +3,40 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>THIS IS A TEST</title>
+    <style>
+      body {
+        background: linear-gradient(135deg, #667eea, #764ba2);
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        font-family: "Segoe UI", Arial, sans-serif;
+        color: #fff;
+      }
+      button {
+        padding: 15px 30px;
+        font-size: 1.2rem;
+        border: none;
+        border-radius: 8px;
+        background: #fff;
+        color: #764ba2;
+        cursor: pointer;
+        box-shadow: 0 4px 14px rgba(0, 0, 0, 0.15);
+        transition: background 0.2s, color 0.2s;
+      }
+      button:hover {
+        background: #764ba2;
+        color: #fff;
+      }
+      #message {
+        margin-top: 24px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+        min-height: 2em;
+      }
+    </style>
   </head>
   <body>
     <button onclick="sayGoodJob()">Click me</button>
